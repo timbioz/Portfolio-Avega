@@ -1,0 +1,24 @@
+2012-03-27 22:51:43,942 [148] INFO  Umbraco.Cms.Web.Mvc.Controllers.UmbracoController [(null)] - Controller being disposed, calling scope cleanup: True
+2012-03-27 22:51:43,942 [148] INFO  Umbraco.Cms.Web.Mvc.Controllers.UmbracoController [(null)] - Controller being disposed, calling scope cleanup: True
+2012-03-27 22:55:42,375 [146] INFO  Umbraco.Cms.Web.Context.DefaultRenderModelFactory [(null)] - Begin find/create context
+2012-03-27 22:55:42,375 [146] INFO  Umbraco.Cms.Web.Context.DefaultRenderModelFactory [(null)] - IUmbracoRenderModel requires creation
+2012-03-27 22:55:42,375 [146] INFO  Umbraco.Cms.Web.Context.DefaultRenderModelFactory [(null)] - End find/create (took 0ms)
+2012-03-27 22:55:42,376 [146] INFO  Umbraco.Cms.Web.Context.DefaultRenderModelFactory [(null)] - Begin ResolveItem
+2012-03-27 22:55:42,472 [146] INFO  Umbraco.Cms.Web.Routing.DefaultRoutingEngine [(null)] - Resolving entity by Non-Domain URL
+2012-03-27 22:55:42,538 [146] INFO  Umbraco.Cms.Web.Routing.DefaultRoutingEngine [(null)] - FindEntityByUrl for URL http://localhost:62558/ took 162ms
+2012-03-27 22:55:42,547 [146] INFO  Umbraco.Cms.Web.Context.DefaultRenderModelFactory [(null)] - End ResolveItem (took 170ms)
+2012-03-27 22:55:42,547 [146] INFO  Umbraco.Cms.Web.Context.DefaultRenderModelFactory [(null)] - Begin find/create context
+2012-03-27 22:55:42,548 [146] INFO  Umbraco.Cms.Web.Context.DefaultRenderModelFactory [(null)] - End find/create (took 0ms)
+2012-03-27 22:55:42,556 [146] INFO  Umbraco.Cms.Web.Context.DefaultRenderModelFactory [(null)] - Begin find/create context
+2012-03-27 22:55:42,557 [146] INFO  Umbraco.Cms.Web.Context.DefaultRenderModelFactory [(null)] - End find/create (took 0ms)
+2012-03-27 22:55:42,559 [146] INFO  Umbraco.Cms.Web.Context.DefaultRenderModelFactory [(null)] - Begin find/create context
+2012-03-27 22:55:42,560 [146] INFO  Umbraco.Cms.Web.Context.DefaultRenderModelFactory [(null)] - End find/create (took 0ms)
+2012-03-27 22:55:42,560 [146] INFO  Umbraco.Cms.Web.Context.DefaultRenderModelFactory [(null)] - Begin find/create context
+2012-03-27 22:55:42,560 [146] INFO  Umbraco.Cms.Web.Context.DefaultRenderModelFactory [(null)] - End find/create (took 0ms)
+2012-03-27 22:55:43,213 [146] INFO  Umbraco.Cms.Web.Context.DefaultRenderModelFactory [(null)] - Begin find/create context
+2012-03-27 22:55:43,214 [146] INFO  Umbraco.Cms.Web.Context.DefaultRenderModelFactory [(null)] - End find/create (took 0ms)
+2012-03-27 22:55:43,214 [146] INFO  Umbraco.Cms.Web.Context.DefaultRenderModelFactory [(null)] - Begin find/create context
+2012-03-27 22:55:43,214 [146] INFO  Umbraco.Cms.Web.Context.DefaultRenderModelFactory [(null)] - End find/create (took 0ms)
+2012-03-27 22:55:43,894 [146] INFO  Umbraco.Cms.Web.Mvc.Controllers.UmbracoController [(null)] - Controller being disposed, calling scope cleanup: True
+2012-03-27 22:55:43,896 [146] INFO  Umbraco.Cms.Web.Mvc.Controllers.UmbracoController [(null)] - Controller being disposed, calling scope cleanup: True
+2012-03-27 22:55:43,896 [146] INFO  Umbraco.Cms.Web.Mvc.Controllers.UmbracoController [(null)] - Controller being disposed, calling scope cleanup: True

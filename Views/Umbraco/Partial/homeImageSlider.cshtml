@@ -1,0 +1,58 @@
+﻿@inherits RenderViewPage
+@using Umbraco.Cms.Web;
+@{
+    var childs = DynamicModel.HomeImageSlides;
+    var options = Model.Children().First().AsDynamic();
+
+}
+
+<script type="text/javascript">
+    jQuery(document).ready(function () {
+        jQuery("ul.sf-menu").supersubs({
+            minWidth: 12,
+            maxWidth: 27,
+            extraWidth: 3
+        }).superfish();
+
+        jQuery(document).ready(function () {
+            jQuery(".box_skitter_large").skitter({
+                animation: "random",
+                interval: @options.SlideInterval,
+                numbers: false,
+                numbers_align: "right",
+                hideTools: true,
+                controls: false,
+                focus: false,
+                focus_position: true,
+                width_label: '340px',
+                enable_navigation_keys: true,
+                progressbar: false
+            });
+        });
+
+    });
+</script>
+
+
+<div id="header">
+    <div id="slider-container">
+        <div class="box_skitter box_skitter_large">
+            <ul>
+                @foreach (var slide in childs)
+                    {
+                        var imageURL = Umbraco.GetMediaUrl(slide.Id, "image");
+                        
+
+                    <li><a href="#">
+                        <img src="@imageURL" alt="@slide.ImageAlt" /></a>
+                        <div class="label_text">
+                            <h3 class="colortext uppercase">@slide.SlideTitle</h3>
+                            <span>@Html.Raw(slide.SlideText)</span>
+                        </div>
+                    </li>
+                    }
+            </ul>
+        </div>
+        <div id="shadow-img-slider"></div>
+    </div>
+</div>

@@ -1,0 +1,14 @@
+﻿@inherits RenderViewPage
+@using Umbraco.Cms.Web;
+
+@{
+    var childs = DynamicModel.HomeImageSlides;
+}
+
+
+
+@foreach(var slide in childs)
+{
+    var imageURL = Umbraco.GetMediaUrl(slide.Id, "image");
+    <p>@imageURL</p>
+}

@@ -1,0 +1,16 @@
+﻿@model Umbraco.Cms.Web.UI.Models.RegisterModel
+
+@if (!User.Identity.IsAuthenticated)
+{
+    using (Html.BeginUmbracoForm("RegisterForm", "AuthSurface"))
+    {
+         @Html.ValidationSummary(prefix: "RegisterForm")
+         <fieldset>
+             <legend>Register</legend>
+             @Html.EditorFor(x => Model, "", "RegisterForm")
+             <br />
+             <input type="submit" value="Register"/>
+         </fieldset>
+    }
+}
+<br />

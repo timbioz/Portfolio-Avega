@@ -1,0 +1,161 @@
+﻿<!DOCTYPE html>
+﻿@inherits RenderViewPage
+@using System.Web.Mvc.Html;
+@using Umbraco.Cms.Web;
+@using Umbraco.Framework;
+<html lang="en"> 
+<head>
+<meta charset="UTF-8" />
+<meta name="robots" content="index, follow" />
+<meta name="keywords" content="@Umbraco.Field("metaKeywords", altText: "авега,партнер,руда,аренда строительной техники")" />
+<meta name="description" content="@Umbraco.Field("metaDescription", altText: "Овега-Бартнер стабильная и прогрессирующая компания хорошо зарекомендовавшая себя  на рынке сыпучих строительных материалов и аренды строительной техники в  Кировоградской области")" />
+<title>@Umbraco.Field("metaTitle", altText: "Омега-Партерс - поставки руды и аренда")</title>
+<link rel="stylesheet" href="@Url.Content("~/Content/Styles/style.css")" type="text/css" media="all" />
+<link rel="stylesheet" href="@Url.Content("~/Content/Styles/skitter.styles.css")" type="text/css" media="all"/>
+<link rel="stylesheet" href="@Url.Content("~/Content/Styles/inner.css")" type="text/css" media="all"/>
+<link rel="stylesheet" href="@Url.Content("~/Content/Styles/prettyPhoto.css")" type="text/css" media="all"/>
+<script src="@Url.Content("~/Scripts/jQuery/jquery.js")" type="text/javascript"></script>
+<script src="@Url.Content("~/Scripts/jQuery/jquery.validate.min.js")" type="text/javascript"></script>
+<script src="@Url.Content("~/Scripts/jQuery/jquery.validate.unobtrusive.min.js")" type="text/javascript"></script>
+<script src="@Url.Content("~/Scripts/jquery.easing.1.3.js")" type="text/javascript"></script>
+<script src="@Url.Content("~/Scripts/jquery.animate-colors-min.js")" type="text/javascript"></script>
+<script src="@Url.Content("~/Scripts/jquery.skitter.js")" type="text/javascript"></script>
+<script src="@Url.Content("~/Scripts/hoverIntent.js")" type="text/javascript"></script>
+<script src="@Url.Content("~/Scripts/superfish.js")" type="text/javascript"></script>
+<script src="@Url.Content("~/Scripts/supersubs.js")" type="text/javascript"></script>
+
+
+    @RenderSection("head", false)
+</head>
+<body>
+
+    <div id="container" class="box3">
+        <div id="top">
+            <div id="logo"><a href="@DynamicModel.Url"><img src="images/logo.png" alt=""  /></a></div>
+            <div id="nav">
+                <ul id="topnav" class="sf-menu">
+                    <li><a href="@Href("~/")"  class="current">Home</a></li>
+                    <li><a href="@Href("~/about")">О НАС</a>
+                        <ul>
+                            <li><a href="elements.html">Elements</a></li>
+                            <li><a href="single-product.html">Product Details</a></li>
+                            <li><a href="single.html">Blog Details</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="product.html">Products</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="#">Portfolio</a>
+                        <ul>
+                            <li><a href="portfolio.html">Portfolio One Column</a></li>
+                            <li><a href="portfolio2.html">Portfolio Two Column</a></li>
+                            <li><a href="portfolio3.html">Portfolio Three Column</a></li>
+                            <li><a href="portfolio4.html">Portfolio Four Column</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul><!-- #topnav -->
+            </div><!-- #nav -->	
+            <hr class="under_nav"/>
+        </div><!-- end #top -->
+
+         
+        @RenderBody()
+  
+        <div id="footer">
+            <div id="footer-pattern">
+        
+                <div class="container940">
+                    <div id="footcol1">
+                        <ul>
+                            <li class="widget-container">
+                                <h2 class="widget-title">wdwdwdwdwdwdwdwdwdwd</h2>
+                                <ul id="recentpostwidget">
+                                    <li>
+                                        <img src="images/content/pic5.jpg" alt="" class="alignleft frame" />
+                                        <h5><a href="#">Hello World!!</a></h5>
+                                        <span>Lorem ipsum dolor sit amet...</span>
+                                    </li>
+                                    <li>
+                                        <img src="images/content/pic6.jpg" alt="" class="alignleft frame" />
+                                        <h5><a href="#">Hello World!!</a></h5>
+                                        <span>Lorem ipsum dolor sit amet...</span>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="footcol2">
+                        <ul>
+                            <li class="widget-container">
+                                <h2 class="widget-title">Blogroll</h2>
+                                <ul>
+                                    <li><a href="#">Vivamus hendrerit venenatis quam</a></li>
+                                    <li><a href="#">Aenean congue nisl in nibh</a></li>
+                                    <li><a href="#">Proin tempus tempus orci eu imperdiet</a></li>
+                                    <li><a href="#">Mauris interdum</a></li>
+                                    <li><a href="#">Donec id turpis at risus</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="footcol3">
+                        <ul>
+                            <li class="widget-container">
+                                <h2 class="widget-title">Gallery</h2>
+                                <ul id="flickr">
+                                    <li><a href="#"><img src="images/content/pic7.jpg" alt="" class="frame" /></a></li>
+                                    <li><a href="#"><img src="images/content/pic8.jpg" alt="" class="frame" /></a></li>
+                                    <li class="nomargin"><a href="#"><img src="images/content/pic9.jpg" alt="" class="frame" /></a></li>
+                                    <li><a href="#"><img src="images/content/pic10.jpg" alt="" class="frame" /></a></li>
+                                    <li><a href="#"><img src="images/content/pic11.jpg" alt="" class="frame" /></a></li>
+                                    <li class="nomargin"><a href="#"><img src="images/content/pic12.jpg" alt="" class="frame" /></a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="footcol4">
+                        <ul>
+                            <li class="widget-container">
+                                <h2 class="widget-title">About Magnum</h2>
+                                <div class="textwidget">
+                                    <p>
+                                        Nulla interdum, enim eu dictum pellentesque, ipsum elit varius purus, et imperdiet odio magna lobortis purus. 
+                                    </p>
+                                    <span>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus sed mauris at eros mollis ultricies vitae porta dui. </span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+           
+                    <div class="clear"></div><!-- clear float -->
+                </div><!-- end container940 -->
+            
+            </div><!-- end #footer-pattern -->  
+        </div><!-- end #footer -->
+        
+        <div id="after-footer">
+            <div class="container940">
+                <div id="sn">
+                    <ul>
+                        <li><a href="#"><img src="images/icons/fb.png" alt="" /></a></li>
+                        <li><a href="#"><img src="images/icons/stumbleupon.png" alt="" /></a></li>
+                        <li><a href="#"><img src="images/icons/lastfm.png" alt="" /></a></li>
+                        <li><a href="#"><img src="images/icons/twitter.png" alt="" /></a></li>
+                        <li><a href="#"><img src="images/icons/youtube.png" alt="" /></a></li>
+                    </ul>
+                </div>
+                <div id="footertext">
+                    Copyright &copy;2012 Magnum.  All Rights Reserved.
+                </div>
+                <div class="clear"></div><!-- clear float -->
+            </div><!-- end container940 -->
+        </div><!-- end #after-footer -->
+        
+    </div><!-- end #container -->
+@*</div><!-- end #outer-container -->*@
+  
+</body>
+</html>
+
+﻿

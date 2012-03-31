@@ -1,0 +1,4 @@
+2012-03-29 23:51:30,848 [10] INFO  Umbraco.Cms.Web.Mvc.Controllers.UmbracoController [(null)] - Controller being disposed, calling scope cleanup: True
+2012-03-29 23:51:30,848 [13] INFO  Umbraco.Cms.Web.Mvc.Controllers.UmbracoController [(null)] - Controller being disposed, calling scope cleanup: True
+2012-03-29 23:51:30,860 [10] INFO  Umbraco.Cms.Web.Mvc.Controllers.UmbracoController [(null)] - Controller being disposed, calling scope cleanup: True
+2012-03-29 23:51:30,860 [13] INFO  Umbraco.Cms.Web.Mvc.Controllers.UmbracoController [(null)] - Controller being disposed, calling scope cleanup: True

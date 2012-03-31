@@ -1,0 +1,23 @@
+2012-03-27 15:58:31,444 [9] INFO  Umbraco.Cms.Web.System.PluginManager [(null)] - Start Initialise
+2012-03-27 15:58:31,489 [9] INFO  Umbraco.Cms.Web.System.PluginManager [(null)] - CodegenDir is C:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\7148a1b0\e75bf5b8
+2012-03-27 15:58:31,502 [9] INFO  Umbraco.Cms.Web.System.PluginManager [(null)] - Creating shadow copy folder and querying for dlls
+2012-03-27 15:58:31,507 [9] INFO  Umbraco.Cms.Web.System.PluginManager [(null)] - Shadow copying assemblies
+2012-03-27 15:58:31,509 [9] INFO  Umbraco.Cms.Web.System.PluginManager [(null)] - I:\SiteAvegaPartner\App_Plugins\Core\lib\Umbraco.Cms.Web.Editors.dll to C:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\7148a1b0\e75bf5b8
+2012-03-27 15:58:31,514 [9] INFO  Umbraco.Cms.Web.System.PluginManager [(null)] - Adding to BuildManager: 'Umbraco.Cms.Web.Editors, Version=5.1.0.111, Culture=neutral, PublicKeyToken=null'
+2012-03-27 15:58:31,515 [9] INFO  Umbraco.Cms.Web.System.PluginManager [(null)] - I:\SiteAvegaPartner\App_Plugins\Core\lib\Umbraco.CMS.Web.ParameterEditors.dll to C:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\7148a1b0\e75bf5b8
+2012-03-27 15:58:31,518 [9] INFO  Umbraco.Cms.Web.System.PluginManager [(null)] - Adding to BuildManager: 'Umbraco.CMS.Web.ParameterEditors, Version=5.1.0.111, Culture=neutral, PublicKeyToken=null'
+2012-03-27 15:58:31,518 [9] INFO  Umbraco.Cms.Web.System.PluginManager [(null)] - I:\SiteAvegaPartner\App_Plugins\Core\lib\Umbraco.Cms.Web.PropertyEditors.dll to C:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\7148a1b0\e75bf5b8
+2012-03-27 15:58:31,523 [9] INFO  Umbraco.Cms.Web.System.PluginManager [(null)] - Adding to BuildManager: 'Umbraco.Cms.Web.PropertyEditors, Version=5.1.0.111, Culture=neutral, PublicKeyToken=null'
+2012-03-27 15:58:31,523 [9] INFO  Umbraco.Cms.Web.System.PluginManager [(null)] - I:\SiteAvegaPartner\App_Plugins\Core\lib\Umbraco.Cms.Web.Tasks.dll to C:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\7148a1b0\e75bf5b8
+2012-03-27 15:58:31,526 [9] INFO  Umbraco.Cms.Web.System.PluginManager [(null)] - Adding to BuildManager: 'Umbraco.Cms.Web.Tasks, Version=5.1.0.111, Culture=neutral, PublicKeyToken=null'
+2012-03-27 15:58:31,526 [9] INFO  Umbraco.Cms.Web.System.PluginManager [(null)] - I:\SiteAvegaPartner\App_Plugins\Core\lib\Umbraco.Cms.Web.Trees.dll to C:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\7148a1b0\e75bf5b8
+2012-03-27 15:58:31,529 [9] INFO  Umbraco.Cms.Web.System.PluginManager [(null)] - Adding to BuildManager: 'Umbraco.Cms.Web.Trees, Version=5.1.0.111, Culture=neutral, PublicKeyToken=null'
+2012-03-27 15:58:31,530 [9] INFO  Umbraco.Cms.Web.System.PluginManager [(null)] - I:\SiteAvegaPartner\App_Plugins\Packages\Examine\lib\Examine.dll to C:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\7148a1b0\e75bf5b8
+2012-03-27 15:58:31,533 [9] INFO  Umbraco.Cms.Web.System.PluginManager [(null)] - Adding to BuildManager: 'Examine, Version=2.10.0.292, Culture=neutral, PublicKeyToken=null'
+2012-03-27 15:58:31,533 [9] INFO  Umbraco.Cms.Web.System.PluginManager [(null)] - I:\SiteAvegaPartner\App_Plugins\Packages\Examine\lib\Lucene.Net.dll to C:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\7148a1b0\e75bf5b8
+2012-03-27 15:58:31,542 [9] INFO  Umbraco.Cms.Web.System.PluginManager [(null)] - Adding to BuildManager: 'Lucene.Net, Version=2.9.2.2, Culture=neutral, PublicKeyToken=null'
+2012-03-27 15:58:31,542 [9] INFO  Umbraco.Cms.Web.System.PluginManager [(null)] - I:\SiteAvegaPartner\App_Plugins\Packages\Examine\lib\Umbraco.Framework.Persistence.Examine.dll to C:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\7148a1b0\e75bf5b8
+2012-03-27 15:58:31,545 [9] INFO  Umbraco.Cms.Web.System.PluginManager [(null)] - Adding to BuildManager: 'Umbraco.Framework.Persistence.Examine, Version=5.1.0.111, Culture=neutral, PublicKeyToken=null'
+2012-03-27 15:58:31,546 [9] INFO  Umbraco.Cms.Web.System.PluginManager [(null)] - I:\SiteAvegaPartner\App_Plugins\Packages\SystemInfo\lib\Umbraco.Cms.Packages.SystemInfo.dll to C:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\7148a1b0\e75bf5b8
+2012-03-27 15:58:31,549 [9] INFO  Umbraco.Cms.Web.System.PluginManager [(null)] - Adding to BuildManager: 'Umbraco.Cms.Packages.SystemInfo, Version=5.1.0.111, Culture=neutral, PublicKeyToken=null'
+2012-03-27 15:58:31,550 [9] INFO  Umbraco.Cms.Web.System.PluginManager [(null)] - End Initialise (took 61ms)

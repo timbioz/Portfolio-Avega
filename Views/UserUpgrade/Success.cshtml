@@ -1,0 +1,9 @@
+﻿@{
+    Layout = "../Home/_Layout.cshtml";
+    ViewBag.Title = "Upgrade Users";
+    ViewBag.IsInstalled = true;
+}
+
+<h1>Upgrade Users</h1>
+<p>Congratulations! You have successfully upgraded your users.</p>
+<p>You can now <a href="@Url.Action("App", "Default", new {area = Url.GetBackOfficeArea()})">login to the backoffice</a>.</p>
